@@ -16,15 +16,13 @@ publish:
     username: $$DOCKER_USER
     password: $$DOCKER_PASS
     email: $$DOCKER_EMAIL
-    repo: plugins/my-plugin
+    repo: zywillc/drone-chef-client
     tag: latest
 
 plugin:
-  name: My Plugin
-  desc: Description of My Plugin
+  name: drone-chef-client
+  desc: drone chef client plugin
   type: publish|deploy|notify|clone|cache
-  image: plugins/my-plugin
+  image: zywillc/drone-chef-client
   labels:
-    - label1
-    - label2
-    - label3
+    - 0.1

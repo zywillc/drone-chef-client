@@ -7,6 +7,22 @@
 
 Drone plugin that allows you to run chef client on assign nodes.
 
+## Vendor dependency
+
+Generaget golang deps (install `Dep` first)
+install `dep`
+
+```sh
+brew install dep
+```
+
+dep init or update
+
+```sh
+dep init
+dep ensure
+```
+
 ## Build
 
 Build the binary with the following commands:
